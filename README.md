@@ -19,6 +19,8 @@ Oleh karena itu, kacamata ini dibuat untuk membantu mereka agar dapat lebih berh
 ## Gambar Rangkaian
 ![alt text](https://github.com/rikiachmad/Arduino-NCC/blob/main/CircuitDesign.png?raw=true "Desain Circuit" )
 
+Desain rangkaian diatas masih menggunakan breadboard hanya untuk pembuatan desain circuit. Untuk pengaplikasiannya digunakan custom print circuit board yang lebih praktis dan efisien.
+
 ## Source Code
 
 ```C
