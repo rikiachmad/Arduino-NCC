@@ -16,7 +16,7 @@ Oleh karena itu, kacamata ini dibuat untuk membantu mereka agar dapat lebih berh
 4. Ultrasonic Sensor HC-SR04
 5. Kabel Jack 3.6mm
 
-## Desain Rangkaian
+## Gambar Rangkaian
 ![alt text](https://github.com/rikiachmad/Arduino-NCC/blob/main/CircuitDesign.png?raw=true "Desain Circuit" )
 
 ## Source Code
