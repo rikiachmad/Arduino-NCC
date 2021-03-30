@@ -1,7 +1,7 @@
 # Penugasan-Arduino-NCC
 ## Ultrasonic Sensor Glasses
 
-Untuk penugasann ketiga sekaligus yang terakhir ini, saya memilih project IoT yaitu Ultrasonic Sensor Glasses. Ultrasonic glasses ini adalah sebuah kacamata yang dimodifikasi dengan sensor ultrasonic untuk mendeteksi hal hal yang terdapat di depan pengguna.
+Untuk penugasann ketiga sekaligus yang terakhir ini, saya memilih project IoT yaitu Ultrasonic Sensor Glasses. Ultrasonic glasses ini adalah sebuah kacamata yang dimodifikasi dengan sensor ultrasonic untuk mendeteksi objek yang terdapat di depan pengguna.
 Hal ini mirip dengan kemampuan "Echolocation" yang dimiliki beberapa hewan sepeti kelelawar, lumba-lumba, dan beberapa ikan paus. Walaupun tidak se-sempurna echolocation milik hewan-hewan tersebut, namun dengan menerapkan prinsip dasar yang sama, kita dapat meniru dengan memanfaatkan teknologi yang ada saat ini.
 Kacamata ini cocok digunakan untuk seorang tuna netra untuk membantu berjalan dan mendeteksi keadaan disekitar.
 
