@@ -101,5 +101,5 @@ void loop() {
   }
 }
 ```
-Dan dua fungsi terakhir merupakan fungsi standart untuk arduino. Pada fungsi loop, jarak antara sensor dengan benda disimpan kedalam variable dan di cek apakah terdapat sebuah objek yang berada ada jarak minimal agar sensor dapat mendeteksi objek tersebut. Jika iya maka fungsi alert akan dipanggil dengan passing argumen berupa jarak objek.
+Dan dua fungsi terakhir merupakan fungsi standart untuk arduino. Pada fungsi loop, jarak antara sensor dengan benda disimpan kedalam variable dan di cek apakah terdapat sebuah objek yang berada pada jarak minimal untuk sensor dapat mendeteksi objek tersebut. Jika iya maka fungsi alert akan dipanggil dengan passing argumen berupa jarak objek.
 
