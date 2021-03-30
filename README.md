@@ -21,8 +21,7 @@ Oleh karena itu, kacamata ini dibuat untuk membantu mereka agar dapat lebih berh
 
 ## Source Code
 
-<br>
-``` Source Code
+```C
 
 #include <Arduino.h>
 #include <NewPing.h>
@@ -91,6 +90,5 @@ void loop() {
   else {
   }
 }
-``` 
-</b>
+```
 
