@@ -7,5 +7,4 @@ Kacamata ini cocok digunakan untuk seorang tuna netra untuk membantu berjalan da
 Pada umumnya seorang tuna netra menggunakan sebuah tongkat bantu untuk mendeteksi segala sesuatu yang berada di depannya. Namun, hal ini kurang efektif untuk mendeteksi sebuah objek-objek yang berada di posisi pas dengan kepala.
 Oleh karena itu, kacamata ini dibuat untuk membantu mereka agar dapat lebih berhati-hati dalam menjalani kehidupan sehari-hari.
 
-
-
+## Komponen
