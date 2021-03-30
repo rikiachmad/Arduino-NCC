@@ -10,11 +10,11 @@ Pada umumnya seorang tuna netra menggunakan sebuah tongkat bantu untuk mendeteks
 Oleh karena itu, kacamata ini dibuat untuk membantu mereka agar dapat lebih berhati-hati dalam menjalani kehidupan sehari-hari.
 
 ## Komponen Penyusun
-1. arduino pro mini 328 - 5v/16mhz
-2. DFPlayer Mini
-3. Custom Print Circuit board
-4. Ultrasonic Sensor HC-SR04
-5. Kabel Jack 3.6mm
+* arduino pro mini 328 - 5v/16mhz
+* DFPlayer Mini
+* Custom Print Circuit board
+* Ultrasonic Sensor HC-SR04
+* Kabel Jack 3.6mm
 
 ## Gambar Rangkaian
 ![alt text](https://github.com/rikiachmad/Arduino-NCC/blob/main/CircuitDesign.png?raw=true "Desain Circuit" )
