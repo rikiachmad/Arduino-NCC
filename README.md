@@ -15,5 +15,5 @@ Oleh karena itu, kacamata ini dibuat untuk membantu mereka agar dapat lebih berh
 5. Kabel Jack 3.6mm
 
 ## Desain Rangkaian
-![alt text] (https://github.com/rikiachmad/Arduino-NCC/blob/main/CircuitDesign.png?raw=true "Desain Circuit")
+![alt text](https://github.com/rikiachmad/Arduino-NCC/blob/main/CircuitDesign.png?raw=true "Desain Circuit" )
 
