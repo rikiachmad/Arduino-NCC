@@ -19,9 +19,9 @@ Oleh karena itu, kacamata ini dibuat untuk membantu mereka agar dapat lebih berh
 ## Gambar Rangkaian
 ![alt text](https://github.com/rikiachmad/Arduino-NCC/blob/main/CircuitDesign.png?raw=true "Desain Circuit" )
 
-Desain rangkaian diatas masih menggunakan breadboard hanya untuk pembuatan desain circuit. Untuk pengaplikasiannya digunakan custom print circuit board yang lebih praktis dan efisien.
+Desain rangkaian diatas masih menggunakan breadboard dan speaker hanya untuk pembuatan desain circuit. Untuk pengaplikasiannya digunakan Custom Print Circuit Board yang lebih praktis dan efisien untuk memudahkan penggunaan.
 
-## Source Code
+## Penjelasan Source Code
 
 ```C
 
@@ -45,14 +45,20 @@ NewPing sonar(trigPin, echoPin ,MAX_DISTANCE);
 SoftwareSerial mp3SoftwareSerial(8, 9); // RX, TX
 DFRobotDFPlayerMini DFPlayer;
 
+```
+Bagian source code diatas digunakan untuk penggunaan library dan inisialisasi variable-variable yang akan digunakan.
+
+```C
+
 void alert(int distance) {
   if (millis() - timer > waitTime) {
     timer = millis();
     DFPlayer.play(distance+1);
   } 
 }
-
-
+```
+Fungsi "alert()" digunakan untuk mentrigger sebuah pesan berupa voiceline dari audio yang telah disiapkan dengan menggunakan DFPlayer berdasarkan jarak dari objek tersebut. 
+```C
 void setupDFPlayer() {
   mp3SoftwareSerial.begin(9600);
   Serial.println();
@@ -72,7 +78,9 @@ void setupDFPlayer() {
   DFPlayer.EQ(DFPLAYER_EQ_NORMAL);
   DFPlayer.outputDevice(DFPLAYER_DEVICE_SD);
 }
-
+```
+Fungsi "setupDFPlayer()" digunakan sebagai user interface settings sekaligus error handling apabila terjadi kesalahan pada DFPlayer.
+```C
 void setup() {
   Serial.begin(9600);
   setupDFPlayer();
@@ -93,4 +101,5 @@ void loop() {
   }
 }
 ```
+Dan dua fungsi terakhir merupakan fungsi standart untuk arduino. Pada fungsi loop, jarak antara sensor dengan benda disimpan kedalam variable dan di cek apakah terdapat sebuah objek yang berada ada jarak minimal agar sensor dapat mendeteksi objek tersebut. Jika iya maka fungsi alert akan dipanggil dengan passing argumen berupa jarak objek.
 
